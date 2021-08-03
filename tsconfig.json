@@ -5,7 +5,7 @@
     "moduleResolution": "node",
     "outDir": "dist",
     "types": [
-      "node",
+      "node"
     ],
     "baseUrl": ".",
     "paths": {
@@ -16,18 +16,24 @@
     "strict": true,
     "allowJs": false,
     "checkJs": false,
+    "declaration": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "strictBindCallApply": true,
     "strictPropertyInitialization": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "stripInternal": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "sourceMap": true,
+    "sourceMap": false
   },
   "include": [
-    "src/**/*"
+    "./src"
   ]
 }

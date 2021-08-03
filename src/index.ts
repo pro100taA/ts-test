@@ -1,5 +1,5 @@
-import http from 'https';
+import http from 'http';
 
-http.createServer((req, res) => {
+http.createServer((_, res) => {
     res.end('Hi!');
 }).listen(9088);
