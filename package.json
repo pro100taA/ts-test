@@ -12,8 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fp-ts": "^2.11.1",
-    "uwebsockets.js": "^19.0.0-docs"
+    "fp-ts": "^2.11.1"
   },
   "devDependencies": {
     "ts-node": "^10.1.0",
